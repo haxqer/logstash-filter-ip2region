@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description     = 'This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install gemname. This gem is not a stand-alone program'
   s.authors         = ['haxqer']
   s.email           = ['haxqer666@gmail.com']
-  s.homepage        = 'http://www.github.com/haxqer'
+  s.homepage        = 'http://www.github.com/haxqer/logstash-filter-ip2region'
   s.require_paths = ['lib', 'vendor/jar-dependencies']
 
   s.files = Dir["lib/**/*","*.gemspec","*.md","CONTRIBUTORS","Gemfile","LICENSE","NOTICE.TXT", "vendor/jar-dependencies/**/*.jar", "vendor/jar-dependencies/**/*.rb", "VERSION", "docs/**/*"]
