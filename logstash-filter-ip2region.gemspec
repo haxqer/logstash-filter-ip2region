@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.version         = ::File.read('VERSION').split('\n').first
   s.licenses        = ['Apache-2.0']
   s.summary         = 'IP2Region Java filter implementation'
-  s.description     = 'This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install gemname. This gem is not a stand-alone program'
+  s.description     = 'ip to code of region.'
   s.authors         = ['haxqer']
   s.email           = ['haxqer666@gmail.com']
-  s.homepage        = 'http://www.github.com/haxqer/logstash-filter-ip2region'
+  s.homepage        = 'http://www.github.com/haxqer'
   s.require_paths = ['lib', 'vendor/jar-dependencies']
 
   s.files = Dir["lib/**/*","*.gemspec","*.md","CONTRIBUTORS","Gemfile","LICENSE","NOTICE.TXT", "vendor/jar-dependencies/**/*.jar", "vendor/jar-dependencies/**/*.rb", "VERSION", "docs/**/*"]

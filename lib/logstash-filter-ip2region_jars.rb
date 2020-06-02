@@ -2,4 +2,4 @@
 # encoding: utf-8
 
 require 'jar_dependencies'
-require_jar('org.logstashplugins', 'logstash-filter-ip2region', '0.1.0')
+require_jar('org.logstashplugins', 'logstash-filter-ip2region', '0.1.1')
